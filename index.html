@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library Organizer</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Link to external JavaScript file -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <h1>📚 Book Library Organizer</h1>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+    </header>
+
+    <main>
+        
+        <!-- Search Section -->
+        <section id="search-section">
+            <input type="text" id="search-bar" placeholder="Search for books...">
+            <button id="search-btn">Search</button>
+        </section>
+
+        <!-- Search Results Section -->
+        <section id="results-section">
+            <h2>Search Results</h2>
+            <div id="results-container"></div>
+        </section>
+
+        <!-- Personal Library Section -->
+        <section id="library-section">
+            <h2>📖 My Library</h2>
+            
+            <!-- To Read Category -->
+            <div class="library-category">
+                <h3>📥 To Read</h3>
+                <div id="to-read"></div>
+            </div>
+            
+            <!-- Reading Category -->
+            <div class="library-category">
+                <h3>📖 Reading</h3>
+                <div id="reading"></div>
+            </div>
+            
+            <!-- Completed Category -->
+            <div class="library-category">
+                <h3>✅ Completed</h3>
+                <div id="completed"></div>
+            </div>
+        </section>
+
+        <!-- Famous Book Recommendations Section -->
+        <section id="recommendations">
+            <h2>🌟 Most Famous Books</h2>
+            <div id="recommendations-container"></div>
+        </section>
+
+    </main>
+</body>
+</html>
