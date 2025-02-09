@@ -17,6 +17,8 @@ A web app to organize your personal library, track reading progress, and get boo
 
 6.Dark Mode: Switch themes for a comfortable reading experience.
 
+7.Book Ratings & Filtering – Find books by rating, author, and genre.
+
 🔧 Technologies Used
 
 1.Frontend: HTML, CSS, JavaScript
@@ -25,12 +27,28 @@ A web app to organize your personal library, track reading progress, and get boo
 
 🚀 How to Use
 
-1.Search for a book and add it to your library.
+1.Search for a Book – Enter a book title or author in the search bar.
 
-2.Organize books into "To Read," "Reading," and "Completed."
+2.Add to Library – Save books to "To Read," "Reading," or "Completed."
 
-3.Track progress by moving books between categories.
+3.Track Progress – Move books between categories as you read.
 
-4.Read Books: Click "Read Book" to preview available content.
+4.Read Books – Click "Read Book" to preview available content.
 
-5.Discover recommendations and explore new reads.
+5.Explore Recommendations – Discover books based on genre selection.
+
+6.Filter Books – Search by author, rating, or genre to find books of interest.
+
+ 🌐How the APIs Are Used
+ 
+ Google Books API:
+ 
+1.Fetches book details (title, cover image, preview link, author, rating, etc.).
+
+2.Used for searching books, retrieving recommendations, and filtering by genre, author, or rating.
+
+LocalStorage API:
+
+1.Saves books added to "To Read," "Reading," and "Completed" sections.
+
+2.Stores user preferences, such as dark mode and selected books.
